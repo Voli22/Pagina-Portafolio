@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+@font-face {
+    font-family: "Bubbler";
+    src: url("../font/BubblerOne-Regular.ttf");
+}
+
+body{
+    font-family: Bubbler, cursive;
+    background-image: url("../imagenes/Fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #101722;
+}
+
+body.contacto footer {
+    flex-shrink: 0;
+}
+
+.contacto{ font-family: Chilanka, cursive;
+    background-image: url("../imagenes/Fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #101722;
+
+}
+
+.logotipo{
+    width: 75px;
+
+
+}
+.logo{
+
+     width: 60%;
+     height: auto;
+     display: block;
+     margin: auto;
+
+}
+.nav-link{
+    color: rgba(244, 226, 231, 0.8)
+}
+
+.nav-link:hover{
+    color: rgb(3, 15, 25,1);
+}
+
+#quien{
+    margin-top: 75px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #000;
+
+}
+
+#mapa{
+    height: 350px;
+}
+
+#experiencia{
+    background-color: rgba(0, 0, 0, 0.425);
+}
