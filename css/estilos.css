@@ -17,11 +17,11 @@ body{
     background-color: #101722;
 }
 
-body.contacto footer {
+body.Contacto footer {
     flex-shrink: 0;
 }
 
-.contacto{ font-family: Chilanka, cursive;
+.Contacto{ font-family: Chilanka, cursive;
     background-image: url("../imagenes/Fondo2.jpg");
     background-size: cover;
     background-position: center;
@@ -68,3 +68,49 @@ body.contacto footer {
 #experiencia{
     background-color: rgba(0, 0, 0, 0.425);
 }
+
+#menu_contact{
+    background: url(../image/pxfuel.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+    #glass{
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgba(6, 4, 4, 0.3);
+        border:1px solid rgba(255, 255, 255, 0.6);
+        padding: 25px;
+        backdrop-filter: blur(20px);
+
+    }
+
+        input{
+            width: 90%;
+            margin: 10px;
+            border: none;
+            padding: 12px;
+            color:#cbc1cf;
+            font-size: 1.3rem;
+        }
+
+        input:focus{
+            outline: 0px;
+            color:#fff;
+            background-color: #4f066c;
+        }
+
+        input[type="submit"]{
+            font-family: Bubbler, cursive;
+            color:#fff;
+            background-color: #4f066c;
+            font-weight: bold;
+            letter-spacing: 3px;
+            width:130px;
+        }
+
+        input[type="submit"]:hover{
+            background-color: #fff;
+            color:#ab46d2;
+            cursor: pointer;
+        }
+        
