@@ -108,6 +108,15 @@ body.Contacto footer {
             width:130px;
         }
 
+        textarea{
+             width: 90%;
+            margin: 10px;
+            border: none;
+            padding: 12px;
+            color:#cbc1cf;
+            font-size: 1.3rem;
+        }
+
         input[type="submit"]:hover{
             background-color: #fff;
             color:#ab46d2;
