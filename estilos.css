@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "Chilanka";
+    src: url("../font/Chilanka-Regular.ttf");
+}
+@font-face {
+    font-family: "Bubbler";
+    src: url("../font/BubblerOne-Regular.ttf");
+}
+
+body{
+    font-family: Bubbler, cursive;
+    background-image: url("../imagenes/Fondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #101722;
+}
+
+body.Contacto footer {
+    flex-shrink: 0;
+}
+
+.Contacto{ font-family: Chilanka, cursive;
+    background-image: url("../imagenes/Fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #101722;
+
+}
+
+.logotipo{
+    width: 75px;
+
+
+}
+.logo{
+
+     width: 60%;
+     height: auto;
+     display: block;
+     margin: auto;
+
+}
+.nav-link{
+    color: rgba(244, 226, 231, 0.8)
+}
+
+.nav-link:hover{
+    color: rgb(3, 15, 25,1);
+}
+
+#quien{
+    margin-top: 75px;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 5px #000;
+
+}
+
+#mapa{
+    height: 350px;
+}
+
+#experiencia{
+    background-color: rgba(0, 0, 0, 0.425);
+}
+
+#menu_contact{
+    background: url(../image/pxfuel.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+    #glass{
+        width: 50%;
+        margin: 0 auto;
+        background-color: rgba(6, 4, 4, 0.3);
+        border:1px solid rgba(255, 255, 255, 0.6);
+        padding: 25px;
+        backdrop-filter: blur(20px);
+
+    }
+
+        input{
+            width: 90%;
+            margin: 10px;
+            border: none;
+            padding: 12px;
+            color:#cbc1cf;
+            font-size: 1.3rem;
+        }
+
+        input:focus{
+            outline: 0px;
+            color:#fff;
+            background-color: #4f066c;
+        }
+
+        input[type="submit"]{
+            font-family: Bubbler, cursive;
+            color:#fff;
+            background-color: #4f066c;
+            font-weight: bold;
+            letter-spacing: 3px;
+            width:130px;
+        }
+
+        input[type="submit"]:hover{
+            background-color: #fff;
+            color:#ab46d2;
+            cursor: pointer;
+        }
+        
